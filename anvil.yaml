@@ -1,7 +1,8 @@
 correct_dependency_ids: {7Q7NEWYAKDCFZEDR: 7Q7NEWYAKDCFZEDR, C6ZZPAPN4YYF5NVJ: C6ZZPAPN4YYF5NVJ}
 dependencies:
-- app_id: 7Q7NEWYAKDCFZEDR
+- dep_id: dep_cw1t05i1se7k78
   version: {dev: false}
+  resolution_hints: {app_id: AIS7GMKT6LRHRMRC, name: Validator, package_name: Validator}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
