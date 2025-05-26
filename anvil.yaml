@@ -1,15 +1,15 @@
+allow_embedding: false
 correct_dependency_ids: {7Q7NEWYAKDCFZEDR: 7Q7NEWYAKDCFZEDR, C6ZZPAPN4YYF5NVJ: C6ZZPAPN4YYF5NVJ}
 dependencies:
 - dep_id: dep_cw1t05i1se7k78
-  version: {dev: false}
   resolution_hints: {app_id: AIS7GMKT6LRHRMRC, name: Validator, package_name: Validator}
-services:
-- source: /runtime/services/tables.yml
-  client_config: {}
-  server_config: {}
-startup: {type: module, module: input_box}
-package_name: InputBox
-allow_embedding: false
+  version: {dev: false}
 name: InputBox
-runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+package_name: InputBox
+runtime_options: {client_version: '3', server_spec: null, server_version: python3-full, version: 2}
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup: {module: input_box, type: module}
 startup_form: null
