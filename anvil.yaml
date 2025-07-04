@@ -1,9 +1,9 @@
 allow_embedding: false
 correct_dependency_ids: {7Q7NEWYAKDCFZEDR: 7Q7NEWYAKDCFZEDR, C6ZZPAPN4YYF5NVJ: C6ZZPAPN4YYF5NVJ}
 dependencies:
-- dep_id: dep_cw1t05i1se7k78
+- dep_id: dep_h9taiz8p3kr2t
   resolution_hints: {app_id: AIS7GMKT6LRHRMRC, name: Validator, package_name: Validator}
-  version: {dev: false}
+  version: {branch: master}
 name: Inputbox
 package_name: Inputbox
 runtime_options: {client_version: '3', server_spec: null, server_version: python3-full, version: 2}
