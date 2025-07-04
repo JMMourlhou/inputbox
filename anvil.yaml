@@ -4,8 +4,8 @@ dependencies:
 - dep_id: dep_cw1t05i1se7k78
   resolution_hints: {app_id: AIS7GMKT6LRHRMRC, name: Validator, package_name: Validator}
   version: {dev: false}
-name: InputBox
-package_name: InputBox
+name: Inputbox
+package_name: Inputbox
 runtime_options: {client_version: '3', server_spec: null, server_version: python3-full, version: 2}
 services:
 - client_config: {}
