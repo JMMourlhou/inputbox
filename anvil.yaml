@@ -4,6 +4,9 @@ dependencies:
 - dep_id: dep_h9taiz8p3kr2t
   resolution_hints: {app_id: AIS7GMKT6LRHRMRC, name: Validator, package_name: Validator}
   version: {branch: master}
+- dep_id: dep_g8jm9ugz99s
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
+  version: { branch: master }
 name: Inputbox
 package_name: Inputbox
 runtime_options: {client_version: '3', server_spec: null, server_version: python3-full, version: 2}
